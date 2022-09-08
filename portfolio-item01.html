@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjuan Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li> 
+                <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Backend project <strong>Where's my money</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> Built with a 4-person development team</p>
+        <img src="img/budget.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-background">
+        <div class="portfolio-item-individual">
+            <p>This is a backend project built with JavaScript, ExpressJS, EJS, PostgreSQL, Sequelize, Passport, jQuery, Chart.js, HTML, CSS, Bootstrap.
+            </p>
+            <p>The website allows users to create an account to record expenses and income to plan for budgets. In this website, users can visualize their expenses and income in charts and table. Transaction records can also be edited and deleted. All the data are collected in a database using PostgreSQL. </p>
+            <p>click on the link below to see the app and code from GitHub.</p>
+            <div class="links">
+                <a href="https://budgetiskey.herokuapp.com/register" target="_blank">App</a>
+                <a href="https://github.com/Joyhecoder/Backend-A-Team" target="_blank">GitHub</a>
+            </div>
+            <br>
+            
+            <video width="900" src="video/budget_app.mov" controls></video>
+        
+        </div>
+    </div>  
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:joyhe520@gmail.com" class="footer__link">joyhe520@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/Joyhecoder" class="social-list__link">
+                    <!-- <img class="icon" src="img/github.webp"> -->
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/manjuan-he-0a926a23a/" class="social-list__link">
+                    <!-- <img src="img/linkedin.png" alt=""> -->
+                     <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
