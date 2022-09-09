@@ -291,8 +291,7 @@ header {
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
-        padding-top: 0.75em;
-        padding-bottom: 1em;
+      
     }
 
     .intro__img {
@@ -312,6 +311,8 @@ header {
         width: calc(100% + 1.5em);
     }
 }
+
+
 
 
 
@@ -617,3 +618,44 @@ header {
 
 /* responsive for small screen */
 
+@media (max-width: 600px) {
+
+    /* index page */
+    .intro {
+        padding-top: 1.75em;
+        padding-bottom: 1em;
+    }
+
+    .my-skills {
+        padding-top: 1.75em;
+        padding-bottom: 1em;
+    }
+
+    .skill {
+        margin-bottom: 1em;
+    }
+
+    .btn-skill {
+        width: 200px;
+        padding: 0px;
+    }
+
+    .about-me {
+        padding-top: 1.75em;
+        padding-bottom: 1em;
+    }
+
+    .my-project {
+        padding-top: 1.75em;
+        padding-bottom: 1em;
+    }
+
+    .portfolio__item {
+        width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* may need to change */
+    }
+
+}
