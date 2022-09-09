@@ -93,6 +93,15 @@ strong {
     transform: scale(1.1);
 }
 
+a:link {
+    text-decoration:none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Typography */
 
 h1,
@@ -474,10 +483,12 @@ header {
 
 .portfolio-title {
     color: var(--clr-dark);
-    text-decoration:none;
+   
     padding-top: 1em;
     padding-bottom: 2em;
 }
+
+
 
 
 
