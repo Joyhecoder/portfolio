@@ -35,7 +35,7 @@
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-body: 1.25rem;
     }
 }
 
@@ -291,6 +291,8 @@ header {
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+        padding-top: 0.75em;
+        padding-bottom: 1em;
     }
 
     .intro__img {
@@ -310,6 +312,8 @@ header {
         width: calc(100% + 1.5em);
     }
 }
+
+
 
 
 /* skills section */
@@ -356,10 +360,19 @@ header {
 @media (min-width: 800px) {
     .skills {
         display: flex;
+        /* justify-content: space-between; */
         max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+      
     }    
+
+    .my-skills {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    
 }
 
 
@@ -433,6 +446,7 @@ header {
     /* background: var(--clr-accent); */
     overflow: hidden;
     margin-left:3em;
+    margin-right:3em;
 
 }
 
@@ -460,7 +474,8 @@ header {
 .portfolio-title {
     color: var(--clr-dark);
     text-decoration:none;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 
@@ -572,11 +587,11 @@ header {
     }
 
     .portfolio-item-individual p {
-        font-size: .5em;
+        font-size: 1em;
     }
 
     a {
-        font-size: .5em;
+        font-size: .75em;
     }
 
     .footer__link {
@@ -598,3 +613,7 @@ header {
         margin-left: 5%;
     }
 } */
+
+
+/* responsive for small screen */
+
