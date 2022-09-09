@@ -465,7 +465,7 @@ header {
 
 .portfolio__img {
     height: 400px;
-    width: 1500px;
+    /* width: 1500px; */
     object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
