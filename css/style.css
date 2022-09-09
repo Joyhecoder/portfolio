@@ -9,7 +9,9 @@
     /* --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace; */
 
-    --ff-primary: 'Roboto Slab', serif;
+    /* --ff-primary: 'Roboto Slab', serif; */
+    --ff-primary: 'Varela Round', sans-serif;
+    /* --ff-primary: 'Varela Round', sans-serif; */
     --ff-secondary: 'Signika Negative', sans-serif;
 
     --fw-reg: 400;
@@ -545,3 +547,54 @@ header {
     background-color: #ccd5ae;
     padding-top: 15px;
 }
+
+@media (max-width: 900px) {
+    video {
+        max-width: 600px;
+        margin-left: 15%;
+    }
+
+    .portfolio-item-individual .portfolio-background {
+        width: 900px;
+       
+    }
+}
+
+@media (max-width: 650px) {
+    .portfolio-item-individual .portfolio-background {
+        width: 650px;
+       
+    }
+
+    video {
+        max-width: 300px;
+        margin-left: 5%;
+    }
+
+    .portfolio-item-individual p {
+        font-size: .5em;
+    }
+
+    a {
+        font-size: .5em;
+    }
+
+    .footer__link {
+        font-size: .25em;
+    }
+    .footer {
+        padding-top: .2em;
+    }
+
+    .social-list {
+        margin-top: .3em;
+        margin-bottom: auto;
+    }
+}
+
+/* @media (max-width: 600px) {
+    video {
+        max-width: 400px;
+        margin-left: 5%;
+    }
+} */
